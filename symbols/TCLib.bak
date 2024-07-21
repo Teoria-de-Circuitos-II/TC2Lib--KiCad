@@ -164,7 +164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:CP_D8.0mm_P3.50mm"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
