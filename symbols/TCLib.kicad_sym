@@ -4093,15 +4093,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LM311_0_1"
 			(polyline
 				(pts
@@ -4385,15 +4376,6 @@
 			)
 		)
 		(property "ki_keywords" "quad opamp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4771,15 +4753,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*VSSOP*3x3mm*P0.65mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LM555_0_0"
 			(pin power_in line
 				(at 0 -10.16 90)
@@ -5014,15 +4987,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LM741_0_1"
 			(polyline
 				(pts
@@ -5245,15 +5209,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TO?92*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LM78L05_0_1"
 			(rectangle
 				(start -5.08 -5.08)
@@ -5377,15 +5332,6 @@
 			)
 		)
 		(property "ki_keywords" "Voltage Regulator 1A Positive"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "TO?220*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5525,15 +5471,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TO?220*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LM79xx_0_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -5665,15 +5602,6 @@
 			)
 		)
 		(property "ki_keywords" "dual opamp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7353,15 +7281,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TL081_0_1"
 			(polyline
 				(pts
@@ -7584,15 +7503,6 @@
 			)
 		)
 		(property "ki_keywords" "dual opamp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7837,15 +7747,6 @@
 			)
 		)
 		(property "ki_keywords" "quad opamp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8585,15 +8486,6 @@
 			)
 		)
 		(property "ki_keywords" "test point tp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Pin* Test*"
 			(at 0 0 0)
 			(effects
 				(font
