@@ -220,29 +220,29 @@
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 3 3)
-		(drill 1.52)
+		(size 3.5 3.5)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ed716211-f3bc-4748-85ae-29b0c1f147de")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
-		(size 3 3)
-		(drill 1.52)
+		(size 3.5 3.5)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "359ae08d-fb10-46a9-ada1-91305e0b3340")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
+	(model "Bornera_2.STEP"
 		(offset
-			(xyz 2.539999962 0 0)
+			(xyz -2.46 4.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
