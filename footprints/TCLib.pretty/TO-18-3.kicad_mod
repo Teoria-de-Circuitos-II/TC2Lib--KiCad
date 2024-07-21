@@ -235,7 +235,7 @@
 		(remove_unused_layers no)
 		(uuid "cbdf7ef8-24fb-4495-8a33-9ab4e944e6dc")
 	)
-	(model "C:/_DATA/Desktop/Kicad_Repo/footprints/TCLib.pretty/TO-18-3.stp"
+	(model "TO-18-3.stp"
 		(offset
 			(xyz 1.25 0 2.5)
 		)
