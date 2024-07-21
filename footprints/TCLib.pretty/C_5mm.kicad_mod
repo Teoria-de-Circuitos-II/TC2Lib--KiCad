@@ -1,0 +1,228 @@
+(footprint "C_5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor multicapa estandar.")
+	(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "83c45b6c-b07e-4412-97ff-33f3cc96d48f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_5mm"
+		(at 2.5 2.5 0)
+		(layer "F.Fab")
+		(uuid "93bd6dab-b9dd-43a4-b9cb-14208db08d37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fa78f37-6dd1-4993-ac63-d7bf6fc134eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3121423-a77d-432c-b35b-3b93146b5f6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4a6ecf9-0fd0-4594-a802-46c27dc486e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.37 -1.37)
+		(end -1.37 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43703fb5-06e6-4916-9111-7d15522f50ce")
+	)
+	(fp_line
+		(start -1.37 -1.37)
+		(end 6.37 -1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93a283a5-55b8-4a33-9531-baf7eee55956")
+	)
+	(fp_line
+		(start -1.37 1.37)
+		(end 6.37 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c5fb11b-d10d-493b-84d7-6af1090a948d")
+	)
+	(fp_line
+		(start 6.37 -1.37)
+		(end 6.37 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "863914eb-74ab-4964-b96a-02bb84f37294")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "999256d1-7d65-4ee1-8096-2e36d4812859")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 6.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2e00c48-a7ea-4207-80d6-d8698cd8e81a")
+	)
+	(fp_line
+		(start 6.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca00f12f-8d12-4b56-aa33-2894c2eb9383")
+	)
+	(fp_line
+		(start 6.5 1.5)
+		(end 6.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6859bf91-693a-4e4a-be72-dd815d4e9586")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c896d8ee-540a-4d9e-a68f-d4172a1ef9e7")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end 6.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48944dc9-08fc-4701-ac41-932a1531f139")
+	)
+	(fp_line
+		(start 6.25 -1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88116423-9f2a-41ab-8ac1-162ffe8999df")
+	)
+	(fp_line
+		(start 6.25 1.25)
+		(end 6.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b77c5045-1671-4dfd-88cd-90361b18fd32")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "3680b87c-b455-4e70-96ea-1737f21ae331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcd0ecd3-b9e5-4e01-9abd-d043f2e80ef9")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7682f8b1-6d99-45f8-88aa-625af09d4ec8")
+	)
+	(model "C_5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

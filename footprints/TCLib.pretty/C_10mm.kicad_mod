@@ -1,14 +1,14 @@
-(footprint "R_0.25W"
+(footprint "C_10mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Resistencia estandar de 1/4W")
-	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+	(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
+	(tags "C Disc series Radial pin pitch 10.00mm  diameter 10.5mm width 5.0mm Capacitor")
 	(property "Reference" "REF**"
-		(at 5.08 -2.37 0)
+		(at 5 -3.75 0)
 		(layer "F.SilkS")
-		(uuid "feaf2315-9459-4e5b-bd06-106bc303634a")
+		(uuid "f37a58b9-f231-4040-a383-776d120bf29e")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "R_0.25W"
-		(at 5.08 2.37 0)
+	(property "Value" "C_10mm"
+		(at 5 3.75 0)
 		(layer "F.Fab")
-		(uuid "b7ee0cd7-bfee-496b-92c1-d88704fe67fa")
+		(uuid "e1ffb70b-d222-46a4-bfc7-8a34fa1d6b36")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "41a82e12-e9df-4a56-9d22-7f2281f85a4e")
+		(uuid "ba39ef0f-5d53-4507-a835-fbef2830ccb9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c130978-1a4e-4a76-ac71-bca152c08cd9")
+		(uuid "90fbac9f-dbd8-44f0-8e78-75a3a859d056")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6e87b304-2cc2-4cf8-972f-917038fbf24c")
+		(uuid "839881c2-33b4-4ae1-b737-fc48c0f78009")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,169 +68,149 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.04 0)
-		(end 1.81 0)
+		(start -0.37 -2.62)
+		(end -0.37 -1.256)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "22a140a5-abc0-4c93-a115-3ded4440fab9")
+		(uuid "bb7af682-5db1-4ce4-a26e-5753075316eb")
 	)
 	(fp_line
-		(start 1.81 -1.37)
-		(end 1.81 1.37)
+		(start -0.37 -2.62)
+		(end 10.37 -2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5f6b1dc8-667a-415b-a1e3-c7e42aeef191")
+		(uuid "c6ff986a-b6f5-4027-81d1-50b7d2040782")
 	)
 	(fp_line
-		(start 1.81 1.37)
-		(end 8.35 1.37)
+		(start -0.37 1.256)
+		(end -0.37 2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d7fe590d-6c4d-493b-a2fe-4f11da735aef")
+		(uuid "1323252f-8f25-484d-9eb2-3bb44165bfcd")
 	)
 	(fp_line
-		(start 8.35 -1.37)
-		(end 1.81 -1.37)
+		(start -0.37 2.62)
+		(end 10.37 2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ff63fa8b-95d7-4d33-b2ef-fdba53745757")
+		(uuid "5af33ca8-e41f-4649-b15b-e4d1929590bb")
 	)
 	(fp_line
-		(start 8.35 1.37)
-		(end 8.35 -1.37)
+		(start 10.37 -2.62)
+		(end 10.37 -1.256)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aa490bd9-5851-4ee5-8ddc-66514acacc3e")
+		(uuid "57e20829-b80a-44a8-b9e0-30669cc46e10")
 	)
 	(fp_line
-		(start 9.12 0)
-		(end 8.35 0)
+		(start 10.37 1.256)
+		(end 10.37 2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "13d2f1d2-bd5c-4419-a16e-200917a08a2f")
+		(uuid "36bdcbf3-b085-456d-9379-9a71a06371c9")
 	)
 	(fp_line
-		(start -1.05 -1.5)
-		(end -1.05 1.5)
+		(start -1.25 -2.75)
+		(end -1.25 2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9efa66f6-cbbc-47c9-aff8-bb812a01fbaf")
+		(uuid "9175303b-becf-40b6-8a48-8684c6623497")
 	)
 	(fp_line
-		(start -1.05 1.5)
-		(end 11.21 1.5)
+		(start -1.25 2.75)
+		(end 11.25 2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "91e4595b-97e0-4642-9ec3-33eecbbbec9e")
+		(uuid "52b4a3d8-a16d-4ce2-b03b-a94c53b7a5dd")
 	)
 	(fp_line
-		(start 11.21 -1.5)
-		(end -1.05 -1.5)
+		(start 11.25 -2.75)
+		(end -1.25 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "74f6930d-5423-44f6-90c0-85de9a2c0381")
+		(uuid "63750367-6caa-4486-b3b0-4e6f306811a4")
 	)
 	(fp_line
-		(start 11.21 1.5)
-		(end 11.21 -1.5)
+		(start 11.25 2.75)
+		(end 11.25 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "67678070-4bbb-4b79-9e9a-cbd87db09e2a")
+		(uuid "f44ccae9-8c7c-4043-ad70-42e97726ce79")
 	)
 	(fp_line
-		(start 0 0)
-		(end 1.93 0)
+		(start -0.25 -2.5)
+		(end -0.25 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "70f478af-b1a4-4cd2-ab56-4a7807fbc2ac")
+		(uuid "c0f5160d-91de-4a76-a06a-9b9a2f319b45")
 	)
 	(fp_line
-		(start 1.93 -1.25)
-		(end 1.93 1.25)
+		(start -0.25 2.5)
+		(end 10.25 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "64b03f75-96ab-4e17-99c4-76ee83adb12b")
+		(uuid "29406bf2-bc9c-4bf6-8ba9-89c46539ebb3")
 	)
 	(fp_line
-		(start 1.93 1.25)
-		(end 8.23 1.25)
+		(start 10.25 -2.5)
+		(end -0.25 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "52b3dde8-bebe-4bd4-a737-5be4181ab430")
+		(uuid "b9e9f8f9-09d9-4a18-ad18-700cb3858fc2")
 	)
 	(fp_line
-		(start 8.23 -1.25)
-		(end 1.93 -1.25)
+		(start 10.25 2.5)
+		(end 10.25 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "03c00c4b-3bab-4fc0-b5b8-9d2b97e6979d")
-	)
-	(fp_line
-		(start 8.23 1.25)
-		(end 8.23 -1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5ecab737-d9fd-4523-9c92-e78848a90588")
-	)
-	(fp_line
-		(start 10.16 0)
-		(end 8.23 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "9bc9b716-621b-4490-8cc7-7c24a198ea74")
+		(uuid "1a33756e-9c79-4af0-9dde-58dfd5f91d3f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0 0)
+		(at 5 0 0)
 		(layer "F.Fab")
-		(uuid "490a7353-000a-4ef9-ab08-ee8fdad234e7")
+		(uuid "0cfd97f1-8e63-40b9-a649-c4fc59e8727a")
 		(effects
 			(font
 				(size 1 1)
@@ -244,17 +224,17 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2f91f3f3-9c91-4e72-beff-15cd0f00e8e7")
+		(uuid "ae5a7a7b-bbd9-45c3-9dbd-929ba2181875")
 	)
 	(pad "2" thru_hole circle
-		(at 10.16 0)
+		(at 10 0)
 		(size 2 2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8344306a-f2e9-488c-89f8-795d49418b7b")
+		(uuid "13799927-3c8d-4344-8741-bdda20283a3f")
 	)
-	(model "R_0.25W.wrl"
+	(model "C_10mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
