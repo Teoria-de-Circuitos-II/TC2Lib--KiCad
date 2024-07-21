@@ -357,7 +357,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_*"
+		(property "ki_fp_filters" "TCLib:R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -459,7 +459,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at -17.018 7.62 0)
+			(at -16.764 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Potentiometer*"
+		(property "ki_fp_filters" "TCLib:RV_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -486,6 +486,17 @@
 			)
 		)
 		(symbol "R_Potentiometer_0_1"
+			(rectangle
+				(start -1.016 2.54)
+				(end 1.016 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.54 0) (xy 1.524 0)
@@ -510,19 +521,68 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 1.016 2.54)
-				(end -1.016 -2.54)
+		)
+		(symbol "R_Potentiometer_1_1"
+			(polyline
+				(pts
+					(xy 1.778 2.54) (xy 1.778 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "R_Potentiometer_1_1"
+			(polyline
+				(pts
+					(xy 2.54 3.556) (xy 2.286 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.556) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 3.556)
+				(mid 1.4761 3.3343)
+				(end 2.1441 2.4771)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "CW"
+				(at 2.286 3.048 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+						(color 0 0 0 1)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)

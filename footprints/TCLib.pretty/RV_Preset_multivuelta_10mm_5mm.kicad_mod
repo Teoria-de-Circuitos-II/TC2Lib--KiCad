@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Potentiometer, horizontal, Bourns 3386W, 9.53 x 4.83 x 9.53mm, https://www.bourns.com/docs/Product-Datasheets/3386.pdf")
+	(descr "Preset Multivuelta azul")
 	(tags "Potentiometer ")
 	(property "Reference" "REF**"
 		(at 3 -3.3 0)
@@ -321,15 +321,15 @@
 		(uuid "0d9b2c72-62d2-4173-b6c9-00d7cda93584")
 		(members "138b0997-44c9-4a54-8e0b-db04f1e66af2" "dec69f30-90a9-4d29-b1ec-3ca80eb65916")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386W_Horizontal.wrl"
+	(model "3296W-V.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5.08 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )
