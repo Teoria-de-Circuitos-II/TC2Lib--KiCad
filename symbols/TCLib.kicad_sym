@@ -357,7 +357,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_*"
+		(property "ki_fp_filters" "TCLib:R_*"
 			(at 0 0 0)
 			(effects
 				(font

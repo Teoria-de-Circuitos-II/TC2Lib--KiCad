@@ -1,4 +1,4 @@
-(footprint "Preset_multivuelta_10mm_5mm"
+(footprint "RV_Preset_multivuelta_10mm_5mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Preset_multivuelta_10mm_5mm"
+	(property "Value" "RV_Preset_multivuelta_10mm_5mm"
 		(at 2.54 3.3 0)
 		(layer "F.Fab")
 		(uuid "852938bb-310b-4eb4-a4c9-ef7e6c2ac145")
