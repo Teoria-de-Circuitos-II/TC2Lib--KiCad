@@ -1,2 +1,2 @@
 # Kicad
-Material educativo para el uso de Kicad
+Biblioteca de Kicad
