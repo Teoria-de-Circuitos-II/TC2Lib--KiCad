@@ -1,2 +1,2 @@
 # Kicad
-Biblioteca de Kicad
+Biblioteca de KiCad
