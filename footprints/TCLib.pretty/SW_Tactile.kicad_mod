@@ -1,0 +1,276 @@
+(footprint "SW_Tactile"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.71258 -4.01401 0)
+		(layer "F.SilkS")
+		(uuid "b4e1be05-795e-4443-aa98-86b7c755c6b5")
+		(effects
+			(font
+				(size 0.801197 0.801197)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Tactile"
+		(at 0.50808 3.9377 0)
+		(layer "F.Fab")
+		(uuid "1483a54e-e400-42cd-a6d2-1e0078142875")
+		(effects
+			(font
+				(size 0.800142 0.800142)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94c32901-2247-48c1-9d20-84d5f438c5d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b143f32-34a1-4f2d-845e-80900b29b504")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f522a39f-f644-4cab-b058-3478bff415c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -1)
+		(end -3 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74443495-ecd6-4a9e-9f84-81206dab6943")
+	)
+	(fp_line
+		(start -2 -3)
+		(end 2 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca9b523-58a3-4b82-9dc6-c916eb5072de")
+	)
+	(fp_line
+		(start -2 3)
+		(end 2 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39149aba-879f-4710-8cba-796f1e1c5eb0")
+	)
+	(fp_line
+		(start 3 -1)
+		(end 3 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bd6537e-537d-46ba-8a52-57a0aeda9d4a")
+	)
+	(fp_circle
+		(center -4.75 -2.25)
+		(end -4.55 -2.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "261714c6-c5f1-4d4d-b21a-946f2f1c0ac0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "44308997-1b78-49ae-b3ce-0757b22041ec")
+	)
+	(fp_line
+		(start -4.25 -3.25)
+		(end 4.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf8370ae-d0b1-448e-a43a-23a07cde9823")
+	)
+	(fp_line
+		(start -4.25 3.245)
+		(end -4.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a0df5d1-be2c-4af6-9eb7-365ea4eeef9b")
+	)
+	(fp_line
+		(start 4.25 -3.25)
+		(end 4.25 3.245)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed3208c0-b5ce-4699-bfe3-7daf56be0eba")
+	)
+	(fp_line
+		(start 4.25 3.245)
+		(end -4.25 3.245)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7bb70cb-7468-4acd-945d-c99c6df0ad4c")
+	)
+	(fp_line
+		(start -2.995 -2.995)
+		(end -2.995 2.995)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c990e57-69eb-422f-80b5-b7e6055e9c07")
+	)
+	(fp_line
+		(start -2.995 2.995)
+		(end 2.995 2.995)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc59dea9-7575-4c47-b70f-620b1658d564")
+	)
+	(fp_line
+		(start 2.995 -2.995)
+		(end -2.995 -2.995)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ab17782-96f7-4e83-841b-db571eb22b04")
+	)
+	(fp_line
+		(start 2.995 2.995)
+		(end 2.995 -2.995)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "973e8c88-18ba-4cd6-a973-b4c84ae34ca0")
+	)
+	(fp_circle
+		(center -3.25 -2.25)
+		(end -3.05 -2.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3f51655b-d033-424e-9bcd-8171e4cff375")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "58bee4c8-66c3-4930-87a6-60cadbda0ac5")
+	)
+	(pad "1" thru_hole rect
+		(at -3.25 -2.25)
+		(size 2.5 2.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a5ec74e3-50f4-4637-b5c8-e528c2baa198")
+	)
+	(pad "2" thru_hole circle
+		(at -3.25 2.25)
+		(size 2.5 2.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "af4cd7f3-d989-4780-913c-98267f69b236")
+	)
+	(pad "3" thru_hole circle
+		(at 3.25 -2.25)
+		(size 2.5 2.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0b89c5a3-7ac6-41de-a744-3b6cf5f5ab46")
+	)
+	(pad "4" thru_hole circle
+		(at 3.25 2.25)
+		(size 2.5 2.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1f27e7d0-eae7-4f7d-870b-9778d92d6aa4")
+	)
+	(model "/home/gullino18/Documents/Github/TC/Kicad/footprints/TCLib.pretty/SW_Tactile.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
