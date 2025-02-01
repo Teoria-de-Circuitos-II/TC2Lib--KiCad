@@ -1,0 +1,162 @@
+(footprint "Toroide"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a411ceb-02ca-4561-9334-60d50b666c3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Torus"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db7f3da0-f833-49d5-ab74-8df9c60d4e02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f91a8cd-5a8b-40d5-b1e7-bc15ebef2ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eb5d002-99ed-49b3-8be1-cfae9711ce24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec9bed89-bd51-462b-8e30-cbc2af3564cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 9 -1)
+		(end 4.8 -1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d247ef87-7ec0-4ba9-90d1-b3503baffe8b")
+	)
+	(fp_line
+		(start 9 1)
+		(end 4.8 1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8bb7255-5c98-443d-82d7-64a0ead6f1b7")
+	)
+	(fp_arc
+		(start 4.8 1)
+		(mid -4.90306 0)
+		(end 4.8 -1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa081ff4-caad-417e-ac24-d2139991c190")
+	)
+	(fp_arc
+		(start 9 1)
+		(mid -9.055385 0)
+		(end 9 -1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ced5fe40-e8c3-4ff6-a1f6-e72f06a9d68f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "d6792642-79cc-45ee-bbf0-9e1a5953abcd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db688d66-b63c-45af-bfcc-da01d0661f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 10 -5)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c13979ed-a17b-400a-adb6-ea3b818b5c34")
+	)
+	(pad "2" thru_hole circle
+		(at 10 5)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acc34972-5b72-46dc-9b55-7c69156b3d16")
+	)
+	(model "Toroide.wrl"
+		(offset
+			(xyz 0 11.8 0)
+		)
+		(scale
+			(xyz 0.155 0.155 0.155)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
+)
