@@ -111,7 +111,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 4.25 0)
+		(end 4 0)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -131,6 +131,13 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "edf8eb15-324d-46b7-b98e-b80589ac63cb")
 	)
 	(pad "1" thru_hole circle
 		(at 10 -5)
