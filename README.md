@@ -1,3 +1,3 @@
-# TC2Lib-Kicad
+# TCLib para Kicad
 
 Biblioteca de KiCad
